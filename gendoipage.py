@@ -14,7 +14,7 @@ userlink="https://github.com/oapdf1/"
 # Setup the doilink dir
 
 # doilink dir is for doilink saving
-doilinkdir="../page_each/doilink_chem1/"
+doilinkdir="../../page_each/doilink_chem1/"
 outdoilinkdir=doilinkdir+"pages/"
 
 #oapdfdir="../doilink/"

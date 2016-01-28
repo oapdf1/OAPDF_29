@@ -4,7 +4,7 @@ import os,sys,glob,time
 import re, urllib2,json
 
 username="oapdf1"
-doilinkdir='../doilink'
+doilinkdir='../../doilink'
 
 workingdir=os.path.abspath('.')
 nowdir=os.path.basename(os.path.abspath(os.path.curdir))

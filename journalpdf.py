@@ -1,19 +1,7 @@
 #! /usr/bin/env python
 
-import os,sys,glob,time
-import re, requests,urllib2,json
-requests.packages.urllib3.disable_warnings()
-
-def doidecompose(suffix):
-	lens=len(suffix)
-	if (lens<=5):
-		return ""
-	layer=(lens-1)/5
-	dirurl=""
-	for i in range(layer):
-		## In window, dir name can't end at '.'
-		dirurl += suffix[i*5:(i+1)*5].rstrip('.')+"/"
-	return dirurl
+import os,sys,glob
+import urllib2,json
 
 def quotefileDOI(doi):
 	'''Quote the doi name for a file name'''
